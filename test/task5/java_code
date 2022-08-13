@@ -1,5 +1,5 @@
 // Java program to print a given number in words. The
-// program handles numbers from 0 to 9999
+// program handles numbers from 0 to 100
 
 class GFG {
 	// A function that prints
