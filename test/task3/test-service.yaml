@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: cerebro
+  name: cerebro-gui-test-service
+spec:
+  selector:
+    app: cerebro
+  ports:
+    - protocol: TCP
+      port: 9000
+      targetPort: 9000
